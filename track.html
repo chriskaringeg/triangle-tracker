@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title> my portfolio</title>
-     <link href="css/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>Chris Karinge</h1>
-    </hgroup>
-    <h1 class= "important">About myself</h1>
-      <img src="image/chris_files./20905772_161218271115781_1561895222609182720_n.jpg"alt="chris facing up">
-      <p>My name is chris karinge.I am a graduate from  the university of oxford with a degree in information technology.</P>
-      <p>I am currently studying at moringa school.I thought that it would be nice to explore tech in a more advanced way.</p>
-      <p>I was not contented with the campus education and unfortunately have no job yet.So,i decided to expound on software development.</p>
-    <h2 class= "important">My interests, hobbies and skills</h2>
-      <p>My interests  hobbies and skills are:
-      <ul class="important">
-        <li><em>playing basketball and football</em></li>
-        <li>singing</li>
-        <li>dancing</li>
-        <li>travelling and exploring new places</li>
-        <li>drawing</li>
-  </body>
+ <head>
+   <link href="css/styles.css" rel="stylesheet" type="text/css">
+   <script src="js/scripts.js"></script>
+   <title>Triangle Tracker</title>
+ </head>
+   <body>
+     <div class="container">
+       <h1>Triangle Tracker</h1>
+       <p>Ask about any type of triangle and you will find an answer!</p>
+       <div id="blanks">
+         <form id="triangle-tracker">
+           <div class="form-group">
+             <label for="side1">Side 1:</label>
+             <input id="side1" class="form-control" type="text">
+           </div>
+           <div class="form-group">
+             <label for="side2">Side 2:</label>
+             <input id="side2" class="form-control" type="text">
+           </div>
+           <div class="form-group">
+             <label for="side3">Side 3:</label>
+             <input id="side3" class="form-control" type="text">
+           </div>
+
+           <button type="submit" class="btn"> i would like to know which kind of triangle this <ins></ins>!</button>
+         </form>
+
+         <div id= "equilateral">
+           <h3> Your triangle is EQUILATERAL!</h3>
+         </div>
+         <div id= "isosceles">
+           <h3> Your triangle is ISOSCELES!</h3>
+         </div>
+         <div id= "scalene">
+           <h3> Your triangle is SCALENE!</h3>
+         </div>
+         <div id= "not-triangle">
+           <h3> Your triangle is NOT A TRIANGLE!</h3>
+         </div>
+
+     </div>
+   </body>
 </html>
