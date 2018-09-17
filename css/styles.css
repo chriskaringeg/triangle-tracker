@@ -1,0 +1,19 @@
+*{
+  color: silver;
+}
+body{
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+  background-size: cover;
+  background-repeat: round;
+  font-size: large;
+}
+.container{
+  border:2px solid dark blue;
+  padding;30px;
+  align-self: center;
+  text-align: center;
+  background-color: inherit;
+  margin-top: auto;
+  margin-right: auto;
+  margin-left:
+}
